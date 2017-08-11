@@ -52,7 +52,7 @@
 {% set show_customer_credit_account = true %}       {# Displays Customer Credit Account information at the bottom of receipts #}
 
 {# Logos #}
-{% set logo_width = '225px' %}                      {# Default width is 225px. #}
+{% set logo_width = '150px' %}                      {# Default width is 225px. #}
 {% set logo_height = '' %}                          {# Default height is 55px. #}
 {% set multi_shop_logos = false %}                  {# Allows multiple logos to be added for separate locations when used with options below #}
 
@@ -355,7 +355,7 @@ table.payments td.label {
 
 		.receiptHeader img {
 			display: block;
-			margin: 0 0 10px;
+			margin: 0 auto 10px;
 			max-width: 120px;
 		}
 
